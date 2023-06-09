@@ -1,0 +1,64 @@
+---
+title: "Untitled"
+date: "2023-06-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Questions and answers about R learning   
+
+What are your thoughts on R vs whatever other software you've used?  
+
+I'd like to talk about R and Python. R is well-suited for statistical analysis and has a strong focus on the statistical domain, while Python provides a broader range of applications and has become a popular choice for machine learning and general-purpose programming. 
+
+
+What functionality do you like about R?  
+
+I like the packages and libraries. The packages and libraries of R are very useful, and make statistical modeling, data visualization, and data manipulation easier.
+
+
+What parts do you miss about your other language?  
+
+Python has a wide range of applications beyond data analysis, the syntax is easy to read and write, and is easy for beginners to learn and collaborate with others. 
+
+Do you consider R a difficult language to learn? (If you knew R prior to the course, describe your experience when first learning it.)  
+
+Until now, I think R is not that difficult, but it takes lots of time to master.
+
+## Example R Markdown output
+
+```{r figure}
+plot(iris)
+```
+
+
+## Image
+
+```{r image1}
+knitr::opts_chunk$set(fig.path = "../images/")
+```
+
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
